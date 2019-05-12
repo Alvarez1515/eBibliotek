@@ -29,7 +29,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
+
 
 
 public class act_AgregarLibro extends AppCompatActivity {
@@ -169,7 +169,7 @@ public class act_AgregarLibro extends AppCompatActivity {
                     break;
             }
         }
-    }
+    }//Fin del metodo para asignar portada
 
     public void abrirDatabase(){
         try{
@@ -203,7 +203,7 @@ public class act_AgregarLibro extends AppCompatActivity {
         txtPublicacion.setText("");
         txtEdicion.setText("");
         imgLibro.setImageURI(null);
-    }
+    }//Fin del metodo limpiar
 
 
 
