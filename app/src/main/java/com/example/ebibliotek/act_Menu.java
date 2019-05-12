@@ -29,15 +29,12 @@ public class act_Menu extends AppCompatActivity {
             }
         });
 
-
         btnListaLib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
-
-
 
         btnLibrosAlq.setOnClickListener(new View.OnClickListener() {
             @Override
