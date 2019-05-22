@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="110dp"
-                app:srcCompat="@mipmap/weibo" />
+                app:srcCompat="@mipmap/logo1" />
 
             <Button
                 android:id="@+id/btnAgregarLib"
@@ -86,7 +86,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="eBlibliotek"
         android:textColor="@android:color/background_light"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
